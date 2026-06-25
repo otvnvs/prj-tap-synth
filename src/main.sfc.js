@@ -2,10 +2,10 @@
 import { loadModule } from './lib/vue3-sfc-loader/vue3-sfc-loader.esm.js';
 import * as Vue from './lib/vue/vue.esm-browser.prod.js';
 import style from './style.css' with { type:'css'};
-import { initDevTools } from './devtools.js'
+//import { initDevTools } from './devtools.js'
 
 // Execute immediately before Vue starts up
-initDevTools()
+//initDevTools()
 
 // Expose these explicitly on window immediately so child scripts have access
 window.Vue = Vue;
